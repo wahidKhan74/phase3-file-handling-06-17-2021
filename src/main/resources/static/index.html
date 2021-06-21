@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Spring - Uploading Multipart File</title>
+</head>
+<body>
+	<h1> Uploading File</h1>
+	<form action="/do-upload" method="post" enctype="multipart/form-data">
+		<label> Select a file :</label>
+		<input type="file" name="file">
+		<button type="submit"> Upload </button>
+	</form>
+	<br><br>
+	
+	<a href="/download?filename=smiley.jpg">Download File</a>
+	
+</body>
+</html>
